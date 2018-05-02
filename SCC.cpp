@@ -96,7 +96,7 @@ int main()
     cout<<endl;
     for(int I=1; I<=Mark; I++)
     {
-         cout<<StringHome[I]<<" : ";
+         cout<<I<<" : ";
         for(int J=0; J<Components[I].size(); J++)
         {
             int V = Components[I][J];
